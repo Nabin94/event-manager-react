@@ -10,10 +10,13 @@ import Navbar from './components/navbar/navbar'
 function App() {
   return (
     <>
+      <Routes>
+        <Route path = "/" element = {<HomePage}
+      </Routes>
       <Navbar/>
       <Art/>
       <Navbar />
-      <Cardlist />
+      
       <CreateEvent />
       <Footer />
 
