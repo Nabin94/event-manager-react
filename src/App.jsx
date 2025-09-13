@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Footer from './components/footer/footer'
 import Navbar from './components/footer/component/navbar/navbar'
+import Create from './create/createevent'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <>
      <Navbar/>
     <h1>My Work</h1>
+    <Create/>
     <Footer/>
 
     </>
