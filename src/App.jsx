@@ -1,28 +1,22 @@
 import './App.css'
 import Footer from './components/footer/footer'
-
-import HeroSection from './components/heroSection/heroSection'
-import Art from './components/banner/banner'
-import Navbar from './components/footer/component/navbar/navbar'
+import Navbar from './components/navbar/navbar'
 import CreateEvent from './components/create/createEvent'
-import Cardlist from './components/cardlist/cardlist'
 import About from "./components/about/about";
+import HomePage from './components/homepage/home';
+import { Routes, Route } from 'react-router-dom'
 
 
 function App() {
   return (
     <>
-
-      
-      <Navbar/>
-      <Art/>
       <Navbar />
-      <Cardlist />
-      <HeroSection/>
-      <CreateEvent />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/create" element={<CreateEvent />} />
+      </Routes>
       <Footer />
-      <About />
-
     </>
   );
 }

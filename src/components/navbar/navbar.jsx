@@ -1,18 +1,21 @@
-import'./navbar.scss'
+import './navbar.scss'
+import { Link } from 'react-router-dom'
 export default function Navbar() {
 
-return(
-<navbar>
-        <div class="logo">
-            <a class="icon"><i class="fa-solid fa-calendar-days"></i></a>
-            <a class="brand-name"><b>Event Manager</b></a>
-        </div>
-        <div class="links">
-            <a class="active"><i class="fa-solid fa-house"></i><b>Home</b></a>
-            <a href="/about.html">About Us</a>
-            <a href="/searchEvent.html"><i class="fa-solid fa-magnifying-glass"></i>Search Event</a>
-            <a href="/createevent.html"> <i class="fa-solid fa-circle-plus"></i>Create Event</a>
-        </div>
-    </navbar>
-)
+    return (
+        <>
+            <nav>
+                <div className="logo">
+                    <a className="icon"><i className="fa-solid fa-calendar-days"></i></a>
+                    <a className="brand-name"><b>Event Manager</b></a>
+                </div>
+                <div className="links">
+                    <a className="active"><Link to="/"><i className="fa-solid fa-house"></i><b>Home</b></Link></a>
+                    <a ><Link to="/about">About Us</Link></a>
+                    <a href="/searchEvent.html"><i className="fa-solid fa-magnifying-glass"></i>Search Event</a>
+                    <a ><Link to="/create"> <i className="fa-solid fa-circle-plus"></i>Create Event</Link></a>
+                </div>
+            </nav>
+        </>
+    )
 }
