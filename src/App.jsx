@@ -6,6 +6,7 @@ import Art from './components/banner/banner'
 import Navbar from './components/footer/component/navbar/navbar'
 import CreateEvent from './components/create/createEvent'
 import Cardlist from './components/cardlist/cardlist'
+import About from "./components/about/about";
 
 
 function App() {
@@ -20,8 +21,10 @@ function App() {
       <HeroSection/>
       <CreateEvent />
       <Footer />
+      <About />
+
     </>
-  )
+  );
 }
 
-export default App
+export default App;
