@@ -1,0 +1,74 @@
+.event {
+    border: 2px solid lightgrey;
+    padding-inline: 40px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+    input[type=text],
+    textarea {
+        width: 400px;
+
+    }
+
+    .input-element {
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+}
+
+.event-button {
+    color: white;
+    background-color: black;
+    padding: 5px 20px;
+    font-size: 30px;
+    height: 50px;
+    width: 400px;
+    border-radius: 4px;
+    cursor: pointer;
+
+    a {
+        color: white;
+        text-decoration-line: none;
+    }
+}
+
+.event-read-terms {
+    padding-bottom: 20px;
+    padding-left: 23px;
+}
+
+.eventcontainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.heading {
+    padding-top: 70px;
+
+    h1 {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+}
+
+.about-us-contents {
+    .description {
+        font-size: 18px;
+    }
+
+    padding: 80px 2px;
+    display: flex;
+    gap: 200px;
+
+}
