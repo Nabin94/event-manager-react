@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Footer from './components/footer/footer'
 import Navbar from './components/footer/component/navbar/navbar'
-import Create from './create/createevent'
+import CreateEvent from './components/create/createEvent'
 import Cardlist from './components/cardlist/cardlist'
 
 
@@ -15,7 +15,7 @@ function App() {
     <>
       <Navbar />
       <Cardlist />
-      <Create />
+      <CreateEvent />
       <Footer />
 
     </>
