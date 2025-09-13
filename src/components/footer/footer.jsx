@@ -2,6 +2,7 @@ import './footer.scss'
 
 export default function Footer() {
     return (
+
         <footer>
             <div className="footer-icons">
                 <div className="brand-name">
