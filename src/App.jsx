@@ -5,6 +5,7 @@ import CreateEvent from './components/create/createEvent'
 import About from "./components/about/about";
 import HomePage from './components/homepage/home';
 import { Routes, Route } from 'react-router-dom'
+import HeroSection from './components/heroSection/heroSection';
 
 
 function App() {
@@ -16,7 +17,9 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/create" element={<CreateEvent />} />
       </Routes>
+      <HeroSection />
       <Footer />
+
     </>
   );
 }
