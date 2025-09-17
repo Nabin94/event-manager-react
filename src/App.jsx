@@ -1,12 +1,10 @@
 import './App.css'
 import Footer from './components/footer/footer'
 import Navbar from './components/navbar/navbar'
-import CreateEvent from './components/create/createEvent'
-import About from "./components/about/about";
-import HomePage from './components/homepage/home';
+import CreateEvent from './components/create/createevent'
+import About from "./components/about/about"
+import HomePage from './components/homepage/home'
 import { Routes, Route } from 'react-router-dom'
-
-
 function App() {
   return (
     <>

@@ -10,10 +10,10 @@ export default function Navbar() {
                     <a className="brand-name"><b>Event Manager</b></a>
                 </div>
                 <div className="links">
-                    <a className="active"><Link to="/"><i className="fa-solid fa-house"></i><b>Home</b></Link></a>
-                    <a ><Link to="/about">About Us</Link></a>
+                    <Link to="/" className="active"><i className="fa-solid fa-house"></i><b>Home</b></Link>
+                    <Link to="/about">About Us</Link>
                     <a href="/searchEvent.html"><i className="fa-solid fa-magnifying-glass"></i>Search Event</a>
-                    <a ><Link to="/create"> <i className="fa-solid fa-circle-plus"></i>Create Event</Link></a>
+                    <Link to="/create"> <i className="fa-solid fa-circle-plus"></i>Create Event</Link>
                 </div>
             </nav>
         </>
