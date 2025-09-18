@@ -1,6 +1,7 @@
 import './createevent.scss'
 
 export default function createEvent() {
+
     return (
         <div>
             <div className="heading">
