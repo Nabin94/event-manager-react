@@ -2,7 +2,7 @@ import './App.css'
 import Footer from './components/footer/footer'
 import Navbar from './components/navbar/navbar'
 import CreateEvent from './components/create/createevent'
-import About from "./components/about/about"
+import About from './components/about/about'
 import HomePage from './components/homepage/home'
 import SearchEvent from './components/searchEvent/searchEvent'
 import { Routes, Route } from 'react-router-dom'

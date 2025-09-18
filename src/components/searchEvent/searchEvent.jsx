@@ -1,23 +1,21 @@
-import'./search.scss'
+import './searchEvent.scss'
 function SearchEvent() {
+
+    
     return (
         <div>
             <section><div className="container">
-                <h1 style={{textAlign:"center"}}><u>Events</u></h1>
-                <select name="select" id="select" onChange ={filterTable}>
+                <h1 style={{ textAlign: "center" }}><u>Events</u></h1>
+                <select name="select" id="select" onChange={filterTable}>
                     <option value="future">Upcomming Events</option>
                     <option value="past">Past Events</option>
                 </select>
                 <div className="dropdown"></div>
             </div>
-            </section>
+            </section>  
 
 
-            <table
-                border="n"
-                id="listing"
-                style={{width:"100%" , textAlign: "center" , borderCollapse:"collapse"}}
-            >
+            <table border="n" id="listing" style={{ width: "100%", textAlign: "center", borderCollapse: "collapse" }}>
                 <thead>
                     <tr>
                         <th>Events</th>
