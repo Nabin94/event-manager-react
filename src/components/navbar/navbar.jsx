@@ -10,7 +10,7 @@ export default function Navbar() {
                     <a className="brand-name"><b>Event Manager</b></a>
                 </div>
                 <div className="links">
-                    <NavLink to="/" className="active"><i className="fa-solid fa-house"></i><b>Home</b></NavLink>
+                    <NavLink to="/" ><i className="fa-solid fa-house"></i><b>Home</b></NavLink>
                     <NavLink to="/about">About Us</NavLink>
                     <NavLink to="/search"><i className="fa-solid fa-magnifying-glass"></i>Search Event</NavLink>
                     <NavLink to="/create"> <i className="fa-solid fa-circle-plus"></i>Create Event</NavLink>
