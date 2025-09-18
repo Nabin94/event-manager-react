@@ -12,7 +12,7 @@ export default function Navbar() {
                 <div className="links">
                     <a className="active"><Link to="/"><i className="fa-solid fa-house"></i><b>Home</b></Link></a>
                     <a ><Link to="/about">About Us</Link></a>
-                    <a href="/searchEvent.html"><i className="fa-solid fa-magnifying-glass"></i>Search Event</a>
+                    <Link to="/search"><i className="fa-solid fa-magnifying-glass"></i>Search Event</Link>
                     <a ><Link to="/create"> <i className="fa-solid fa-circle-plus"></i>Create Event</Link></a>
                 </div>
             </nav>

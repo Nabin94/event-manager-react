@@ -6,6 +6,7 @@ import About from "./components/about/about";
 import HomePage from './components/homepage/home';
 import { Routes, Route } from 'react-router-dom'
 import HeroSection from './components/heroSection/heroSection';
+import SearchEvent from './components/searchEvent/searchEvent';
 
 
 function App() {
@@ -16,8 +17,8 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<About />} />
         <Route path="/create" element={<CreateEvent />} />
+        <Route path="/search" element={<SearchEvent />} />
       </Routes>
-      <HeroSection />
       <Footer />
 
     </>
