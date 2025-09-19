@@ -1,0 +1,53 @@
+
+.container {
+  display: flex;
+  align-items: center;   
+  justify-content: space-between;
+  gap: 40px; 
+  flex-wrap: wrap; 
+  margin: 40px auto;
+  max-width: 1200px;
+}
+
+.about-us {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-us h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.about-us-contents {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.portfolio img {
+  width: 100%;
+  max-width: 400px; 
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.description {
+  flex: 2;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  display: flex;
+  align-items: center;   
+}
+
+.description p {
+  margin: 0;
+}
+
+.description li {
+  margin: 8px 0;
+  padding-left: 5px;
+}

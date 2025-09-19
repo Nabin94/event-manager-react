@@ -5,8 +5,6 @@ import CreateEvent from './components/create/createevent'
 import About from './components/about/about'
 import HomePage from './components/homepage/home'
 import SearchEvent from './components/searchEvent/searchEvent'
-import About from "./components/about/about"
-import HomePage from './components/homepage/home'
 import { Routes, Route } from 'react-router-dom'
 function App() {
   return (
