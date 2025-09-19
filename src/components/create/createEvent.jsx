@@ -92,7 +92,11 @@ function CreateEvent() {
   return (
     <div>
       <div className="heading">
-        <img src="Well-come.png" />
+        <img src="/create-event/create-Banner.jpeg"
+          alt="Create Event Banner"
+          width="1770px"
+          height="400px"
+        />
         <h1>CREATE EVENT</h1>
         <h2>Welcome</h2>
       </div>
